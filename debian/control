@@ -1,0 +1,12 @@
+Source: ros-melodic-ridgeback-cartographer-navigation
+Section: misc
+Priority: optional
+Maintainer: Tony Baltovski <tbaltovski@clearpathrobotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-catkin, ros-melodic-roslaunch
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-melodic-ridgeback-cartographer-navigation
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-cartographer-ros, ros-melodic-map-server, ros-melodic-move-base, ros-melodic-ridgeback-navigation, ros-melodic-urdf, ros-melodic-xacro
+Description: Launch files and code for autonomous navigation of the Ridgeback using Google Cartographer
